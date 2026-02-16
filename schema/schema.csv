@@ -1,0 +1,17 @@
+field,type,description,required,example,notes
+insight,number,Core iRNA field: insight score or measure,true,0.75,Scale TBD
+resilience,number,Core iRNA field: resilience score or measure,true,0.62,Scale TBD
+navigation,number,Core iRNA field: navigation score or measure,true,0.48,Scale TBD
+agency,number,Core iRNA field: agency score or measure,true,0.91,Scale TBD
+context,string,Extended iRznA field: situational context,false,home,Free text or controlled vocab
+modulation,string,Extended iRznA field: modulation state,false,low,Controlled vocab TBD
+signal_type,string,Extended iRznA field: signal type,false,eeg,Enum TBD
+timestamp,datetime,Event timestamp in ISO 8601,true,2026-02-16T12:30:00Z,UTC recommended
+trigger,string,Event trigger or initiating factor,false,notification,Free text or controlled vocab
+environment,string,Environment context (physical or digital),false,lab,Free text or controlled vocab
+wireless_protocol,string,Protocol of wireless technology used,false,ble,Examples: BLE/WiFi/Zigbee
+servers,string,Server environment or hosting used,false,cloud,Examples: on-prem/cloud/hybrid
+networks,string,Network type or topology,false,edge,Examples: LAN/WAN/edge
+bioelectrical_affinity,string,Affinity to bioelectrical properties of the nervous system,false,neuro-adjacent,Notes from neuroscientists or lab annotations
+interchangeable_positions,string,Positions interchangeably used with outside technologies,false,adjacent wearable,Use neuroscientist terminology if available
+neuroscientist_notes,string,Additional notes from neuroscientists,false,reviewed,Free text
